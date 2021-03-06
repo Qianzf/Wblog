@@ -41,5 +41,9 @@ $ git config --global user.email "xxxx@163.com"
 创建SSH Key
 $ ssh-keygen -t rsa -C "youremail@example.com" //修改自己的邮箱，用户主目录下会生成.ssh目录，里面有有id_rsa和id_rsa.pub这两个文件
 
+$ git remote add origin git@github.com:5sdy/Wblog.git //关联远程库
+$ git branch -M main
+$ git push -u origin main //将所有分支内容推送到远程库
+
 test.txt
 教程地址：https://www.liaoxuefeng.com/wiki/896043488029600
