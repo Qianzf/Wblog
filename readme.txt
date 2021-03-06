@@ -8,7 +8,7 @@ $ rm test.txt //删除test.txt文件
 $ git init  //把当前目录变成git可以管理的仓库
 $ git add readme.txt  //把readme.txt文件添加到仓库
 $ git add -A //把所有修改的内容添加到仓库
-$ git commit -m "备注说明" //把文件提交到仓库，-m 后面输入的为本次提交的说明
+$ git commit -m "wblog" //把文件提交到仓库，-m 后面输入的为本次提交的说明
 $ git push -u origin main //第一次将本地仓库main分支的所有内容提交到远程仓库
 $ git push origin main //之后提交无需加-u
 
